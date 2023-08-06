@@ -11,9 +11,11 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <title>theHam</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
 </head>
 <body>
-
+<!-- Header -->
     <header class="header_wrapper">
         <div class="header container">
             <a class="header_logo_link" href="#">
@@ -36,8 +38,9 @@
             </nav>
         </div>
     </header>
-<!-- Main_header_section -->
+
     <main>
+<!-- Main_header_section -->
        <section class="main_header_section">
         <div class="container">
             <h1 class="main_header_title">The Ham is <span>Wordpress theme</span></h1>
@@ -71,17 +74,148 @@
 </ul>
        </section>
 <!-- Servise_section -->
-       <section></section>
+       <section>
+        <div class="servises_section container">
+            <h2 class="sections_title">Our Services</h2>
+            <ul class="services_tabs">
+                <li class="service_tab_item" data-name="web_design">Web Design</li>
+                <li class="service_tab_item" data-name="graphic_design">Graphic Design</li>
+                <li class="service_tab_item" data-name="online_support">Online Support</li>
+                <li class="service_tab_item" data-name="app_design">App Design</li>
+                <li class="service_tab_item" data-name="online_marketing">Online Marketing</li>
+                <li class="service_tab_item" data-name="seo_service">Seo Service</li>
+            </ul>
+            <ul class="tabs_content">
+                <li data-name="web_design">
+                    <div class="service_content">
+                    <img src="./img/services_section/web_design.png" alt="Web Design">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+                </li>
+                <li data-name="graphic_design">
+                    <div class="service_content">
+                    <img src="./img/services_section/graphic_design.jpg" alt="Graphic Design">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum.</p></div>
+                </li>
+                <li data-name="online_support">
+                    <div class="service_content">
+                    <img src="./img/services_section/online_support.jpg" alt="Online Support">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+                </li>
+                <li data-name="app_design">
+                    <div class="service_content">
+                    <img src="./img/services_section/app_design.jpg" alt="App Design">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum.</p></div>
+                </li>
+                <li data-name="online_marketing">
+                    <div class="service_content">
+                    <img src="./img/services_section/online_marketing.jpg" alt="Online Marketing">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum.</p></div>
+                </li>
+                <li data-name="seo_service">
+                    <div class="service_content">
+                    <img src="./img/services_section/seo_service.jpg" alt="Seo Service">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+                </li>
+            </ul>
+        </div>
+       </section>
 <!-- Purchase_section -->
        <section class="purchase_section">
         <div class="container">
-            <h2 class="purchase_section_title">Everything is ready. just buy and install now</h2>
+            <h3 class="purchase_section_title">Everything is ready. just buy and install now</h3>
             <p class="purchase_section_text">Smooth reliable, responsive ready, perfect portfolio, unique blog layout and many many options for you</p>
             <button class="btn explore_btn header_section_btn shadow_btn">purchase now</button>
         </div>
        </section>
+<!-- News_section -->
+       <section>
+        <div class="news_section container">
+            <h2 class="sections_title">Breaking News</h2>
+            <div class="grid_container_news">
+                <div class="grid_item_post">
+                    <a class="grid_post_link" href="#">
+                        <img class="grid_post_img" src="./img/news_section/blog_photo1.png" alt="Blog image">
+                        <p class="date_widget">12<br>Feb</p>
+                        <div class="grid_content_box">
+                            <h4 class="grid_post_caption">Amazing Blog Post</h4>
+                            <p class="grid_post_text">By admin    <span>|</span>    2 comment</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid_item_post">
+                    <a class="grid_post_link" href="#">
+                        <img class="grid_post_img" src="./img/news_section/blog_photo2.png" alt="Blog image">
+                        <p class="date_widget">12<br>Feb</p>
+                    <div class="grid_content_box">
+                        <h4 class="grid_post_caption">Amazing Blog Post</h4>
+                        <p class="grid_post_text">By admin    <span>|</span>    2 comment</p>
+                    </div>
+                    </a>
+                </div>
+                <div class="grid_item_post">
+                    <a class="grid_post_link" href="#">
+                        <img class="grid_post_img" src="./img/news_section/blog_photo3.png" alt="Blog image">
+                        <p class="date_widget">12<br>Feb</p>
+                        <div class="grid_content_box">
+                            <h4 class="grid_post_caption">Amazing Blog Post</h4>
+                            <p class="grid_post_text">By admin    <span>|</span>    2 comment</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid_item_post">
+                    <a class="grid_post_link" href="#">
+                        <img class="grid_post_img" src="./img/news_section/blog_photo4.png" alt="Blog image">
+                        <p class="date_widget">12<br>Feb</p>
+                        <div class="grid_content_box">
+                            <h4 class="grid_post_caption">Amazing Blog Post</h4>
+                            <p class="grid_post_text">By admin    <span>|</span>    2 comment</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid_item_post">
+                    <a class="grid_post_link" href="#">
+                        <img class="grid_post_img" src="./img/news_section/blog_photo5.png" alt="Blog image">
+                        <p class="date_widget">12<br>Feb</p>
+                        <div class="grid_content_box">
+                            <h4 class="grid_post_caption">Amazing Blog Post</h4>
+                            <p class="grid_post_text">By admin    <span>|</span>    2 comment</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid_item_post">
+                    <a class="grid_post_link" href="#">
+                        <img class="grid_post_img" src="./img/news_section/blog_photo6.png" alt="Blog image">
+                        <p class="date_widget">12<br>Feb</p>
+                        <div class="grid_content_box">
+                            <h4 class="grid_post_caption">Amazing Blog Post</h4>
+                            <p class="grid_post_text">By admin    <span>|</span>    2 comment</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid_item_post">
+                    <a class="grid_post_link" href="#">
+                        <img class="grid_post_img" src="./img/news_section/blog_photo7.png" alt="Blog image">
+                        <p class="date_widget">12<br>Feb</p>
+                        <div class="grid_content_box">
+                            <h4 class="grid_post_caption">Amazing Blog Post</h4>
+                            <p class="grid_post_text">By admin    <span>|</span>    2 comment</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid_item_post">
+                    <a class="grid_post_link" href="#">
+                        <img class="grid_post_img" src="./img/news_section/blog_photo8.png" alt="Blog image">
+                        <p class="date_widget">12<br>Feb</p>
+                        <div class="grid_content_box">
+                            <h4 class="grid_post_caption">Amazing Blog Post</h4>
+                            <p class="grid_post_text">By admin    <span>|</span>    2 comment</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>    
+       </section>
 
-       <section></section>
        <section></section>
        <section></section>
        <footer></footer>
@@ -90,7 +224,9 @@
 
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="copyright">© Copyright 2015 <a href="#">theHam</a> | All Rights Reserved</div>
+    </footer>
 
     <script src="./common.js"></script>
 </body>
