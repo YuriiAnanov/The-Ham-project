@@ -427,6 +427,11 @@ header {
     padding: 0;
 }
 
+.work_gallery_item:hover .popup {
+    top: 0;
+    transform: translateY(0);
+}
+
 .popup {
     display: flex;
     flex-direction: column;
@@ -444,19 +449,47 @@ header {
 
 .popup_icons {
     display: flex;
-    gap: 6px;
     margin: 46px 0 32px 0;
-    transition: 1s;
+    gap: 8px;
+}
+
+.icon_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #18CFAB;
+    border-radius: 25px;
+    width: 42px;
+    height: 41px;
     cursor: pointer;
+    transition: .7s;
 }
 
-.icon_left:hover {
-    stroke: white;
-    fill: #18CFAB;
+.icon_link:hover {
+    background-color: #18CFAB;
 }
 
-.icon_right:hover {
-    fill: #18CFAB;
+.icon_left_links {
+    background: url(../img/work_section/icon_left.svg) center / 40% no-repeat;
+}
+
+.icon_left_links:hover {
+    background-image: url(../img/work_section/icon_left_white.svg);
+}
+
+.icon_link > span {
+    width: 13px;
+    height: 13px;
+    border: 1.5px solid #18CFAB;
+    background-color: #18cfab;
+    display: inline-block;
+}
+
+.icon_link:hover > span {
+    background-color: #FFF;
+    border: none;
+    width: 13px;
+    height: 13px;
 }
 
 .text_up {
@@ -472,11 +505,6 @@ header {
     font-size: 12.152px;
     font-weight: 300;
     line-height: 25.185px;  
-}
-
-.work_gallery_item:hover .popup {
-    top: 0;
-    transform: translateY(0);
 }
 
 .work_btn_loader {
